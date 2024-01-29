@@ -15,3 +15,12 @@
     width: 15%;
     padding: 10px 10px 10px 20px;
 }
+
+.navbar-menu {
+    padding: 10px;
+}
+
+.navbar-menu a {
+    color: #121212;
+    margin-right: 25px;
+}

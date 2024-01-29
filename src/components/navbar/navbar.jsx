@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbar-container">
             <img className="logo" src={ logo } alt="imagem do logotipo" />
 
-            <div className="navabr-menu">
+            <div className="navbar-menu">
                 <a href="#">Historico</a>
 
                 <Button>
@@ -18,7 +18,6 @@ function Navbar() {
                 </Button>
             </div>
         </div>
-
     )
 }
 
