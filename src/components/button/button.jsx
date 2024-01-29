@@ -1,6 +1,6 @@
-function Button({ children }) {
+function Button({ children, estilo }) {
     return (
-        <button className="btn btn-red">
+        <button className={ estilo }>
             { children }
         </button>
     )

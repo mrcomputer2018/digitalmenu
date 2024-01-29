@@ -16,7 +16,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="products">
+                <div className="products text-center">
                     <Product />
                     <Product />
                     <Product />

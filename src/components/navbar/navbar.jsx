@@ -12,7 +12,7 @@ function Navbar() {
             <div className="navbar-menu">
                 <a href="#">Historico</a>
 
-                <Button>
+                <Button estilo='btn btn-red'>
                     <img className="icon" src={ bag } alt="imagem de uma sacola" />
                     Sacola
                 </Button>
