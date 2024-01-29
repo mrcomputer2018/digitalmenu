@@ -1,8 +1,13 @@
+import Navbar from "../../components/navbar/navbar";
+
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <Navbar />
+            <h1>Nosso Cardápio</h1>
+            description<br />
+            Product List<br />
+        </>
     )
 }
 
