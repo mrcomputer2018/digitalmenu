@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Button from "../button/button";
 
 import "./navbar.css";
@@ -10,7 +12,7 @@ function Navbar() {
             <img className="logo" src={ logo } alt="imagem do logotipo" />
 
             <div className="navbar-menu">
-                <a href="#">Historico</a>
+                <Link to="/history">Histórico</Link>
 
                 <Button estilo='btn btn-red'>
                     <img className="icon" src={ bag } alt="imagem de uma sacola" />
