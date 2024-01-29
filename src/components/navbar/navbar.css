@@ -23,4 +23,5 @@
 .navbar-menu a {
     color: #121212;
     margin-right: 25px;
+    cursor: pointer;
 }
